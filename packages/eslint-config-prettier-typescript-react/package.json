@@ -3,9 +3,9 @@
   "description": "> TODO: description",
   "version": "1.0.31",
   "dependencies": {
-    "@geux/eslint-config-prettier-react": "1.0.29",
+    "@geux/eslint-config-prettier-react": "1.0.1",
     "@geux/eslint-config-prettier-typescript": "1.0.31",
-    "@geux/eslint-config-typescript-react": "1.0.29"
+    "@geux/eslint-config-typescript-react": "1.0.1"
   },
   "directories": {
     "lib": "lib"
@@ -23,8 +23,5 @@
   ],
   "license": "MIT",
   "main": "lib/index.js",
-  "publishConfig": {
-    "registry": "https://artifacts.devops.knsb.ru/repository/npm-local/"
-  },
-  "repository": "ssh://git@bb.steor.tech:7999/frontp/eslint-configs.git"
+  "repository": "https://gitflic.ru/project/adimitriev/eslint-config.git"
 }

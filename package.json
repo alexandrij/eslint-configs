@@ -28,7 +28,7 @@
   },
   "homepage": "https://bb.steor.tech/projects/FRONTP/repos/eslint-configs/browse#README.md",
   "packageManager": "npm",
-  "repository": "ssh://git@bb.steor.tech:7999/FRONTP/eslint-configs.git",
+  "repository": "https://gitflic.ru/project/adimitriev/eslint-config.git",
   "scripts": {
     "lint": "eslint packages",
     "publish": "lerna publish --yes --no-push",

@@ -1,7 +1,7 @@
 {
   "name": "@geux/eslint-config",
   "description": "@geux eslint config",
-  "version": "1.0.29",
+  "version": "1.0.1",
   "dependencies": {
     "eslint": "8.39.0"
   },
@@ -21,8 +21,5 @@
   "peerDependencies": {
     "eslint": "8.39.0"
   },
-  "publishConfig": {
-    "registry": "https://artifacts.devops.knsb.ru/repository/npm-local/"
-  },
-  "repository": "ssh://git@bb.steor.tech:7999/frontp/eslint-configs.git"
+  "repository": "https://gitflic.ru/project/adimitriev/eslint-config.git"
 }
