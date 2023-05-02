@@ -1,0 +1,25 @@
+{
+  "name": "@geux/eslint-config-typescript",
+  "description": "> TODO: description",
+  "version": "1.0.29",
+  "dependencies": {
+    "@geux/eslint-config": "1.0.29"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://bb.steor.tech/projects/FRONTP/repos/eslint-configs/browse/packages/eslint-config-typescript#README.md",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.59.2",
+    "@typescript-eslint/parser": "5.59.2"
+  },
+  "publishConfig": {
+    "registry": "https://artifacts.devops.knsb.ru/repository/npm-local/"
+  },
+  "repository": "ssh://git@bb.steor.tech:7999/frontp/eslint-configs.git"
+}

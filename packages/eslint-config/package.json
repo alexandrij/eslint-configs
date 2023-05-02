@@ -1,0 +1,28 @@
+{
+  "name": "@geux/eslint-config",
+  "description": "@geux eslint config",
+  "version": "1.0.29",
+  "dependencies": {
+    "eslint": "8.39.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://bb.steor.tech/projects/FRONTP/repos/eslint-configs/browse/packages/eslint-config#README.md",
+  "keywords": [
+    "eslint-config",
+    "steor"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "peerDependencies": {
+    "eslint": "8.39.0"
+  },
+  "publishConfig": {
+    "registry": "https://artifacts.devops.knsb.ru/repository/npm-local/"
+  },
+  "repository": "ssh://git@bb.steor.tech:7999/frontp/eslint-configs.git"
+}

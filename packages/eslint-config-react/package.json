@@ -1,0 +1,29 @@
+{
+  "name": "@geux/eslint-config-react",
+  "description": "> TODO: description",
+  "version": "1.0.29",
+  "dependencies": {
+    "@geux/eslint-config": "1.0.29",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://bb.steor.tech/projects/FRONTP/repos/eslint-configs/browse/packages/eslint-config-react#README.md",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "peerDependencies": {
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0"
+  },
+  "publishConfig": {
+    "registry": "https://artifacts.devops.knsb.ru/repository/npm-local/"
+  },
+  "repository": "ssh://git@bb.steor.tech:7999/frontp/eslint-configs.git"
+}

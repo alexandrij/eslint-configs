@@ -1,0 +1,28 @@
+{
+  "name": "@geux/eslint-config-typescript-react",
+  "description": "> TODO: description",
+  "version": "1.0.29",
+  "dependencies": {
+    "@geux/eslint-config-react": "1.0.29",
+    "@geux/eslint-config-typescript": "1.0.29"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://bb.steor.tech/projects/FRONTP/repos/eslint-configs/browse/packages/eslint-config-typescript-react#README.md",
+  "keywords": [
+    "eslint-config",
+    "react",
+    "steor",
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "publishConfig": {
+    "registry": "https://artifacts.devops.knsb.ru/repository/npm-local/"
+  },
+  "repository": "ssh://git@bb.steor.tech:7999/frontp/eslint-configs.git"
+}

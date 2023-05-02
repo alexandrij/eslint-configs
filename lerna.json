@@ -1,0 +1,15 @@
+{
+  "version": "1.0.31",
+  "npmClient": "npm",
+  "useWorkspaces": true,
+  "command": {
+    "version": {
+      "allowBranch": "master",
+      "conventionalCommits": true
+    },
+    "publish": {
+      "allowBranch": "master",
+      "message": "[CI] Версия %s"
+    }
+  }
+}

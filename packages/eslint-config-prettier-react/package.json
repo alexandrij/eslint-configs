@@ -1,0 +1,28 @@
+{
+  "name": "@geux/eslint-config-prettier-react",
+  "description": "@geux eslint настройки для React с prettier",
+  "version": "1.0.29",
+  "dependencies": {
+    "@geux/eslint-config-prettier": "1.0.29",
+    "@geux/eslint-config-react": "1.0.29"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://bb.steor.tech/projects/FRONTP/repos/eslint-configs/browse/packages/eslint-config-prettier-react#README.md",
+  "keywords": [
+    "eslint-config",
+    "prettier",
+    "react",
+    "steor"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "publishConfig": {
+    "registry": "https://artifacts.devops.knsb.ru/repository/npm-local/"
+  },
+  "repository": "ssh://git@bb.steor.tech:7999/frontp/eslint-configs.git"
+}

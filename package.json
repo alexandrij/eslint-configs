@@ -1,0 +1,40 @@
+{
+  "name": "root",
+  "dependencies": {
+    "hoist": "0.0.6"
+  },
+  "devDependencies": {
+    "eslint": "8.39.0",
+    "lerna": "6.6.1",
+    "prettier": "2.8.8",
+    "syncpack": "8.5.14"
+  },
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=16.0.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es2021": true,
+      "node": true,
+      "jest": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 12
+    },
+    "root": true
+  },
+  "homepage": "https://bb.steor.tech/projects/FRONTP/repos/eslint-configs/browse#README.md",
+  "packageManager": "npm",
+  "repository": "ssh://git@bb.steor.tech:7999/FRONTP/eslint-configs.git",
+  "scripts": {
+    "lint": "eslint packages",
+    "publish": "lerna publish --yes --no-push",
+    "release": "npm run lint && lerna publish"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
