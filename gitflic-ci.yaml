@@ -29,8 +29,6 @@ dependencies:
     - if: '$CI_COMMIT_TAG'
       changes:
         - package-lock.json
-  tags:
-    - docker
   cache:
     key:
       files:
@@ -45,8 +43,6 @@ dependencies:
 ### Staging build ###
 .build_job:
   stage: build
-  tags:
-    - docker
   only:
     - master
   script:
@@ -54,7 +50,5 @@ dependencies:
 
 lint:
   stage: lint
-  tags:
-    - docker
   script:
     - npm run lint
