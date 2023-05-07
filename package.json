@@ -31,8 +31,7 @@
   "repository": "https://gitflic.ru/project/adimitriev/eslint-config.git",
   "scripts": {
     "lint": "eslint packages",
-    "publish": "lerna publish --yes --no-push",
-    "release": "npm run lint && lerna publish"
+    "publish": "lerna publish --yes --no-push"
   },
   "workspaces": [
     "packages/*"
