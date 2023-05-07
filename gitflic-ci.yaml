@@ -1,0 +1,60 @@
+variables:
+  BUILDER_IMAGE: "node:18.16.0"
+
+image: $BUILDER_IMAGE
+
+cache:
+  key:
+    files:
+      - package-lock.json
+  paths:
+    - node_modules/
+    - "**/node_modules/"
+  policy: pull
+
+stages:
+  - dependencies
+  - lint
+  - build
+
+dependencies:
+  stage: dependencies
+  rules:
+    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH'
+      changes:
+        - package-lock.json
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+      changes:
+        - package-lock.json
+    - if: '$CI_COMMIT_TAG'
+      changes:
+        - package-lock.json
+  tags:
+    - docker
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - node_modules/
+      - "**/node_modules/"
+    policy: pull-push
+  script:
+    - npm install
+
+### Staging build ###
+.build_job:
+  stage: build
+  tags:
+    - docker
+  only:
+    - master
+  script:
+    - npm run publish
+
+lint:
+  stage: lint
+  tags:
+    - docker
+  script:
+    - npm run lint
