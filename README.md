@@ -6,7 +6,7 @@
 TypeScript + React.
 Также можно добавить правила Prettier.
 
-![eslint-layered.svg](./eslint-layered.svg)
+![eslint-layered.png](./eslint-layered.png)
 
 ## Доступные скрипты
 
