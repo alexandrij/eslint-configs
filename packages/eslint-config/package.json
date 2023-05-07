@@ -11,10 +11,9 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://bb.steor.tech/projects/FRONTP/repos/eslint-configs/browse/packages/eslint-config#README.md",
+  "homepage": "https://gitflic.ru/project/adimitriev/eslint-configs/blob?file=packages/eslint-config/README.md",
   "keywords": [
-    "eslint-config",
-    "steor"
+    "eslint-config"
   ],
   "license": "MIT",
   "main": "lib/index.js",

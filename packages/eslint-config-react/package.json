@@ -14,7 +14,7 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://bb.steor.tech/projects/FRONTP/repos/eslint-configs/browse/packages/eslint-config-react#README.md",
+  "homepage": "https://gitflic.ru/project/adimitriev/eslint-configs/blob?file=packages/eslint-config-react/README.md",
   "license": "MIT",
   "main": "lib/index.js",
   "peerDependencies": {

@@ -12,11 +12,10 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://bb.steor.tech/projects/FRONTP/repos/eslint-configs/browse/packages/eslint-config-typescript-react#README.md",
+  "homepage": "https://gitflic.ru/project/adimitriev/eslint-configs/blob?file=packages/eslint-config-typescript-react/README.md",
   "keywords": [
     "eslint-config",
     "react",
-    "steor",
     "typescript"
   ],
   "license": "MIT",

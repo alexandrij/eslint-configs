@@ -12,12 +12,11 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://bb.steor.tech/projects/FRONTP/repos/eslint-configs/browse/packages/eslint-config-prettier-react#README.md",
+  "homepage": "https://gitflic.ru/project/adimitriev/eslint-configs/blob?file=packages/eslint-config-prettier-react/README.md",
   "keywords": [
     "eslint-config",
     "prettier",
-    "react",
-    "steor"
+    "react"
   ],
   "license": "MIT",
   "main": "lib/index.js",

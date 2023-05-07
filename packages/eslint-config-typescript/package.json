@@ -11,7 +11,7 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://bb.steor.tech/projects/FRONTP/repos/eslint-configs/browse/packages/eslint-config-typescript#README.md",
+  "homepage": "https://gitflic.ru/project/adimitriev/eslint-configs/blob?file=packages/eslint-config-typescript/README.md",
   "license": "MIT",
   "main": "lib/index.js",
   "peerDependencies": {
