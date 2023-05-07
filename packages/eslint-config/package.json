@@ -3,7 +3,7 @@
   "description": "@geux eslint config",
   "version": "1.0.1",
   "dependencies": {
-    "eslint": "8.39.0"
+    "eslint": "8.40.0"
   },
   "directories": {
     "lib": "lib"
@@ -18,7 +18,7 @@
   "license": "MIT",
   "main": "lib/index.js",
   "peerDependencies": {
-    "eslint": "8.39.0"
+    "eslint": "8.40.0"
   },
   "repository": "https://gitflic.ru/project/adimitriev/eslint-config.git"
 }

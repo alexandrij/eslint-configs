@@ -4,8 +4,8 @@
     "hoist": "0.0.6"
   },
   "devDependencies": {
-    "eslint": "8.39.0",
-    "lerna": "6.6.1",
+    "eslint": "8.40.0",
+    "lerna": "6.6.2",
     "prettier": "2.8.8",
     "syncpack": "8.5.14"
   },
@@ -27,7 +27,7 @@
     "root": true
   },
   "homepage": "https://gitflic.ru/project/adimitriev/eslint-configs/blob?file=README.md",
-  "packageManager": "npm",
+  "packageManager": "npm@9.5.1",
   "repository": "https://gitflic.ru/project/adimitriev/eslint-config.git",
   "scripts": {
     "lint": "eslint packages",

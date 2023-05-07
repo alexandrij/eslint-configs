@@ -1,10 +1,10 @@
 {
   "name": "@geux/eslint-config-prettier-typescript-react",
   "description": "> TODO: description",
-  "version": "1.0.31",
+  "version": "1.0.1",
   "dependencies": {
     "@geux/eslint-config-prettier-react": "1.0.1",
-    "@geux/eslint-config-prettier-typescript": "1.0.31",
+    "@geux/eslint-config-prettier-typescript": "1.0.1",
     "@geux/eslint-config-typescript-react": "1.0.1"
   },
   "directories": {
